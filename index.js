@@ -16,9 +16,6 @@ var dashboard = "";
 client.commands = new discord.Collection();
 
 
-client.login(process.enz.token);
-
-
 
 //  Command handler
 fs.readdir("./commands/", (err, files) => {
@@ -215,3 +212,4 @@ function RandomXp(message) {
     }
 
 }
+client.login(process.enz.token);
