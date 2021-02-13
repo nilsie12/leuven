@@ -1,0 +1,30 @@
+{
+  "name": "discord_bot_yt",
+  "version": "1.0.0",
+  "description": "Discord bot voor YT serie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "bot",
+    "yt",
+    "test"
+  ],
+  "author": "Jens",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "botdash.pro": "^1.0.2",
+    "canvacord": "^5.0.8",
+    "discord.js": "^12.2.0",
+    "ms": "^2.1.2",
+    "mysql": "^2.18.1",
+    "yt-search": "^2.1.8",
+    "ytdl-core": "^2.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
