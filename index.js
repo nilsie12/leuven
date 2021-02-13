@@ -16,7 +16,7 @@ var dashboard = "";
 client.commands = new discord.Collection();
 
 
-client.login(process.env.token);
+client.login(procces.enz.token);
 
 
 
